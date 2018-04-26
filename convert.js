@@ -19,6 +19,14 @@ function iToC() {
 	console.log(message);
 }
 
-
+//Converter of yards to meters
+function yToM() {
+	
+	var yards = parseInt(document.getElementById("value1").value);
+	
+	var meters = yards * 0.9144;
+	var message = yards + ' yard converts to ' + meters + ' meters.' ;
+	console.log(message);
+}
 
 	
