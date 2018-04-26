@@ -29,4 +29,14 @@ function yToM() {
 	console.log(message);
 }
 
+//Converter of miles to kilometers
+function mToK() {
+	
+	var miles = parseInt(document.getElementById("value1").value);
+	
+	var kilometers = miles * 1.60934;
+	var message = miles + ' mile converts to ' + kilometers + ' kilometers.' ;
+	console.log(message);
+}
+
 	
